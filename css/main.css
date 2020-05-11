@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+{ -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    font-family: serif, sans-serif;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    min-width: 1200px;
+    background-color: green;
+}
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.e{
+    background-color: rgb(49, 92, 49);
+    border-radius: 50px;
+    z-index: 3;
+    color: white;
+}
+
+header ul li {
+    float: none;
+}
+.head-left{
+float: left;
+padding: 6px 10px;
+margin: 20px 0 0 20px;
+}
+.head-right{
+float: right;
+padding: 6px 10px;
+margin: 20px 20px 0 0;
+
+}
+
+
+main form{
+    
+    min-width: 1200px;
+    padding: 50px 0;
+}
+
+.logo-center{
+    display: flex;
+    justify-content: center;
+    padding-top: 109px;
+    margin: 0 auto 0 490px;
+}
+
+
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+border: 1px solid rgb(223, 224, 226);
+border-radius: 25px;
+height: 45px;
+width: 600px;
+margin: 25px auto;
+
+
+}
+        .m-glass{
+        width: 55px;
+        padding: 0;
+        }
+
+        .search-text{
+            border: none;
+            width: 550px;
+            height: 35px;
+            margin: 3px 0 0 -10px;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .microphone{
+                padding: 7px 5px 0 0;
+        }
+        .g-search{
+            font-size: .85rem;
+            padding: 10px 15px;
+            border: none;
+            color: lightslategray;
+            margin: 5px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+footer a{
+    display: block;
+    background-color: rgb(236, 236, 236);
+    text-decoration: none;
+
+}
+address{
+ background-color: rgb(236, 236, 236);
+ margin-top: 50px;
+ padding: 20px 0 20px 25px;
+ border: 1px solid rgb(224, 224, 224);
+ color: gray;
+}
+.foot{
+    bottom: 0;
+    float: none;
+}
+footer div ul li{
+
+}
+.footer-left{
+float: left;
+padding: 6px 10px;
+margin: 20px 0 0 20px;
+}
+
+.footer-right{
+    float: right;
+    padding: 6px 10px;
+    margin: 20px 20px 0 0;
+}
